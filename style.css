@@ -164,4 +164,17 @@ header{
     font-weight: 400;
     margin: 4px 0 10px;
  }
- 
+ .box span{
+    font-size: car(--p-font);
+    color: var(--main-color);
+    font-weight: 600;
+ }
+ .box .bx {
+    background: var(--main-color);
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 0 0.5rem 0 0.5rem ;
+ }
